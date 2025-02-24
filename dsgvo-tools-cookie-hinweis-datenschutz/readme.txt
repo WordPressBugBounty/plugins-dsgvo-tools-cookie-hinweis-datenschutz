@@ -2,7 +2,7 @@
 Contributors: fhwebdesign
 Tags: dsgvo,tools,cookie,datenschutz,hinweis,gdpr,cookie,notice,privacy,policy,multilang,polylang,language
 Requires at least: 4.9.3
-Tested up to: 6.1
+Tested up to: 6.7
 Requires PHP: 6.5
 Stable tag: trunk
 License: GPL3
@@ -31,6 +31,9 @@ Compatible with Polylang, supports a privacy page for each language!
 4. Backend settings with polylang
 
 == Changelog ==
+= 1.11 =
+- Update to WP 6.7
+
 = 1.10 =
 - Update to WP 6.1
 

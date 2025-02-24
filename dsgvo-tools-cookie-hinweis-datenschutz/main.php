@@ -2,7 +2,7 @@
 /*
 Plugin Name: 	GDPR tools: cookie notice + privacy
 Description: part of the GDPR tools package. Adds a cookie notice and a privacy notice
-Version: 1.10
+Version: 1.11
 Author: fabian heinz webdesign
 Author URI: https://www.fabian-heinz-webdesign.de
 License: GPL3
@@ -15,9 +15,9 @@ require_once plugin_basename( '/content/content.php' );
 add_action( 'init', function () {
 	load_plugin_textdomain( 'dsgvo-tools-cookie-hinweis-datenschutz' );
 	if( function_exists( 'pll_register_string' ) ) {
-        pll_register_string( __( 'Text in cookie notice' ), __( 'This website is using cookies to improve the user-friendliness. You agree by using the website further.' ), 'dsgvo tools', true);
-        pll_register_string( __( 'Text in cookie button' ), __( 'Understand' ), 'dsgvo tools' );
-        pll_register_string( __( 'Text of privacy policy hyperlink' ), __( 'Privacy policy' ), 'dsgvo tools' );
+    pll_register_string( __( 'Text in cookie notice' ), __( 'This website is using cookies to improve the user-friendliness. You agree by using the website further.' ), 'dsgvo tools', true);
+    pll_register_string( __( 'Text in cookie button' ), __( 'Understand' ), 'dsgvo tools' );
+    pll_register_string( __( 'Text of privacy policy hyperlink' ), __( 'Privacy policy' ), 'dsgvo tools' );
 		//get_option( 'fhw_dsgvo_cookie_text', __( 'This website is using cookies to improve the user-friendliness. You agree by using the website further.', 'dsgvo-tools-cookie-hinweis-datenschutz' ) )
 	}
 } );
